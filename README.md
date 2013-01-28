@@ -34,7 +34,9 @@ Once you've got that installed, you can install all of the other dependencies lo
     $ cd [PROJECT_FOLDER]
     $ npm install
     
-This will put all of the Node modules into the `node_modules` folder in the project for you. Note that this includes installing a local copy of Testacular. If you want to use a global copy, comment or remove the Testacular entry from the `devDependencies` object in `package.json` and install Testacular globally like this:
+This will put all of the Node modules into the `node_modules` folder in the project for you. Essentially, `npm` uses the `package.json` file's `devDependencies` key to figure out what should be installed. If you're familiar with tool's like Ruby's `bundler`, this works a lot like a `Gemfile`.
+
+Note that this includes installing a local copy of Testacular. If you want to use a global copy, comment or remove the Testacular entry from the `devDependencies` object in `package.json` and install Testacular globally like this:
 
     $ npm install -g testacular
 
@@ -58,6 +60,11 @@ To start up the testacular server:
     $ grunt testacular
 
 This will run testacular, with watch turned on, and automatically capture your Chrome browser. Your tests will run every time the source or test Javascript is saved.
+
+Adding Grunt Plugins
+--------------------
+
+[To do]
 
 How to Write Tests
 ------------------
