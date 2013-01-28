@@ -38,6 +38,27 @@ This will put all of the Node modules into the `node_modules` folder in the proj
 
     $ npm install -g testacular
 
+Grunt Tasks
+-----------
+
+To lint your JS:
+
+    $ grunt jshint
+
+To uglify and compress your code:
+
+    $ grunt uglify
+
+To do both (this runs the default task):
+
+    $ grunt
+    
+To start up the testacular server:
+
+    $ grunt testacular
+
+This will run testacular, with watch turned on, and automatically capture your Chrome browser. Your tests will run every time the source or test Javascript is saved.
+
 How to Write Tests
 ------------------
 
