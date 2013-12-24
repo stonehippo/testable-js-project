@@ -19,11 +19,11 @@ This project relies on the following stuff for testing:
 Usage
 -----
 
-The first thing you'll want, if you don't already have it, to install Node.js. You can do that with [Brew](http://mxcl.github.com/homebrew/) on OS X, or use one of the installers available on the [Node.js downloads page](http://nodejs.org/downloads/).
+The first thing you'll want, if you don't already have it, is to install Node.js. You can do that with [Brew](http://mxcl.github.com/homebrew/) on OS X, or use one of the installers available on the [Node.js downloads page](http://nodejs.org/downloads/).
 
 Ok, now fork this repo.
 
-After that, you'll want to get the Grunt CLI (also called `grunt-cli`). This is the newer (~0.4.x) version of grunt; if you're using 0.3.x, you're need to remove it with `npm uninstall -g grunt`.
+After that, you'll want to get the Grunt CLI (also called `grunt-cli`). This is the newer (~0.4.x) version of grunt; if you're using 0.3.x, you need to remove it with `npm uninstall -g grunt`.
 
 To install the latest version of `grunt-cli`:
 
@@ -43,7 +43,7 @@ Note that this includes installing a local copy of Testacular. If you want to us
 Grunt Tasks
 -----------
 
-To lint your JS:
+To lint your code:
 
     $ grunt jshint
 
