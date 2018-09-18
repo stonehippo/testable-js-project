@@ -10,7 +10,7 @@ This project relies on the following stuff for testing:
 
 * [Node.js](http://nodejs.org/)
 * [Grunt](http://gruntjs.com)
-* [Jasmine](http://pivotal.github.com/jasmine/)
+* [Jasmine](https://jasmine.github.io/)
 * [grunt-contrib-jshint](https://github.com/gruntjs/grunt-contrib-jshint)
 * [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
 * [Testacular](http://http://vojtajina.github.com/testacular/)
